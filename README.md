@@ -3,9 +3,9 @@
 
 # 获取 MOZ 钱包地址
 你可以使用以下钱包：
-- [foxwallet](https://foxwallet.com/)
-- [leowallet](https://www.leo.app/)
-- [puzzle wallet](https://puzzle.online/)
+- [FoxWallet](https://foxwallet.com/)
+- [Metamask](https://metamask.io/)
+- [TrustWallet](https://trustwallet.com/)
 <br/>
 
 <h3>以下演示使用 foxwallet 钱包，获取 MOZ 钱包地址</h3>
