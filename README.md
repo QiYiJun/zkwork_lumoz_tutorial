@@ -1,6 +1,6 @@
 # zkwork Lumoz tutorial
-首先是官方矿工程序与部署教程地址：[点击前往](https://github.com/6block/zkwork_moz_prover)
-查询自己挖了多少币、当前算力等...[点击前往](https://zk.work/zhTW/lumoz)
+首先是官方矿工程序与部署教程地址：[点击前往](https://github.com/6block/zkwork_moz_prover)</br>
+查询自己挖了多少币、当前算力等... [点击前往](https://zk.work/zhTW/lumoz)
 
 # 获取 MOZ 钱包地址
 你可以使用以下钱包：
