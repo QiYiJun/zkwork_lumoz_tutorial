@@ -31,7 +31,7 @@
   <img style='width: 360px' src='./screenshots/05.jpg' />
   <h3>点击右侧的＋</h3>
   <img style='width: 360px' src='./screenshots/06.jpg' />
-  <h3>在顶部填写token</h3>
+  <h3>在顶部填写token，并点击 MOZ 右侧绿色的＋，我这里已经添加过了</h3>
 
   ```
   Token: 0xFB81A910AAFE8f04242Bb364a8Cf7AC359e020bf
