@@ -41,7 +41,6 @@
   <img style='width: 360px' src='./screenshots/07.jpg' />
   <h3>至此你已经可以拿到MOZ钱包地址了，快去挖吧！</h3>
 </details>
-<br/>
 
 # 部署教程
 还是官方矿工程序与部署教程地址：[点击前往](https://github.com/6block/zkwork_moz_prover)
