@@ -83,7 +83,58 @@
 </details>
 
 # 部署教程
-还是官方矿工程序与部署教程地址：[点击前往](https://github.com/6block/zkwork_moz_prover)
-
+还是官方矿工程序与部署教程地址，官方教程已经很清楚了：[点击前往](https://github.com/6block/zkwork_moz_prover)</br>
 以下是个人部署教程，前往官方地址获取最新的矿工程序 [点击前往](https://github.com/6block/zkwork_moz_prover/releases)
+<details>
+  <summary>系统与驱动</summary>
+  系统：Ubuntu 20.4 +</br>
+  NVIDIA显卡驱动：535.54.03 + （AMD的显卡自己测）
+</details>
 
+<details>
+  <summary>矿工程序选择</summary>
+
+  NVIDIA显卡选择 `cuda`</br>
+  AMD显卡选择 `ocl`
+</details>
+
+<details>
+  <summary>下载文件、解压、配置</summary>
+  下载矿工程序并解压
+
+  ```
+  wget https://github.com/6block/zkwork_moz_prover/releases/download/v1.0.1/moz_prover-v1.0.1_cuda.tar.gz
+  tar -zvxf moz_prover-v1.0.1_cuda.tar.gz
+  cd moz_prover
+  ```
+
+  打开文件 `inner_prover.sh` 并填写钱包地址和矿工名称
+  ```
+  reward_address=钱包地址
+  custom_name="矿工名称"
+  ```
+  ![inner_prover](./screenshots/mining/inner_prover.png)
+</details>
+
+<details>
+  <summary>运行矿工程序、查看日志</summary>
+
+  运行矿工程序
+  ```
+  sudo chmod +x run_prover.sh
+  ./run_prover.sh
+  ```
+
+  查看日志
+  ```
+  tail -f prover.log
+  ```
+  出现 `Lumoz: new proof generated for job xx` 就说明正常跑起来了</br>
+  ![check_log](./screenshots/mining/check_log.png)
+</details>
+
+<details>
+  <summary>不想手动部署? 来试试大佬的一键部署吧!</summary>
+
+  [点击直达 一键部署](https://github.com/qq1739920004/zk_lumoz_auto.sh/tree/master)
+</details>
