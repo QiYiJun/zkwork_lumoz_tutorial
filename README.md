@@ -100,11 +100,12 @@
 
 <details>
   <summary>下载文件、解压、配置</summary>
-  下载矿工程序并解压
+
+  下载矿工程序并解压，请更新至v1.0.2或者以上的版本，旧版本挖不了 [(查看详情)](https://discord.com/channels/984349855617011712/1301815847760957470/1305823639048032299)
 
   ```
-  wget https://github.com/6block/zkwork_moz_prover/releases/download/v1.0.1/moz_prover-v1.0.1_cuda.tar.gz
-  tar -zvxf moz_prover-v1.0.1_cuda.tar.gz
+  wget https://github.com/6block/zkwork_moz_prover/releases/download/v1.0.2/moz_prover-v1.0.2_cuda.tar.gz
+  tar -zvxf moz_prover-v1.0.2_cuda.tar.gz
   cd moz_prover
   ```
 
